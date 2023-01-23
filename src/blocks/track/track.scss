@@ -1,0 +1,37 @@
+.track {
+    padding-bottom: 90px;
+    background-image: url(../img/track.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content {
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__title {
+        font-family: 'Roboto Condensed';
+        font-weight: 300;
+        font-size: px-to-em(32);
+        line-height: 118%;
+        text-transform: uppercase;
+        color: #040404;
+        padding: 50px 0 30px;
+    }
+
+    &__text {
+        max-width: 435px;
+        font-family: 'Roboto Condensed';
+        font-size: px-to-em(14);
+        line-height: 120%;
+    }
+
+    &__img {
+        display: block;
+        margin: 250px 10px 0 auto;
+
+    }
+  
+}

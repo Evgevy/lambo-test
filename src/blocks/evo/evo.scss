@@ -1,0 +1,158 @@
+.evo {
+    margin-bottom: 100px;
+
+    &__bcontent,
+    &__wcontent {
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__black {
+        background-color: #363636;
+        padding: 100px 0 50px;
+        color: #FFFFFF;
+    }
+
+    &__black-inner {
+        position: relative;
+    }
+
+    &__black-inner::before {
+        content: '';
+        background-image: url(../img/dec-1.svg);
+        width: 185px;
+        height: 213px;
+        position: absolute;
+        top: 210px;
+        left: -130px;
+    }
+
+    &__black-inner::after {
+        content: '';
+        background-image: url(../img/dec-2.svg);
+        width: 498px;
+        height: 572px;
+        position: absolute;
+        top: 290px;
+        left: -40px;
+    }
+
+    &__black-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__blackt-title {
+        font-family: 'Roboto Condensed';
+        font-weight: 300;
+        font-size: px-to-em(32);
+        line-height: 118%;
+        text-transform: uppercase;
+        padding-right: 50px;
+        
+    }
+
+    &__blackbox {
+        flex-basis: 437px;
+    }
+
+    &__blacktext {
+        margin-bottom: 30px;
+        font-family: 'Roboto Condensed';
+        font-size: px-to-em(14);
+        line-height: 120%;
+    }
+
+    &__black-img {
+        display: block;
+        margin: 170px auto 60px;
+        z-index: 1;
+        position: relative;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 0 65px;
+        font-family: 'Roboto Condensed';
+        font-weight: 400;
+        font-size: px-to-em(14);
+        line-height: 120%;
+
+    }
+
+    &__white-inner {
+        padding-top: 125px;
+        position: relative;
+    }
+
+    &__white-inner::before {
+        content: '';
+        background-image: url(../img/dec-3.png);
+        width: 274px;
+        height: 257px;
+        position: absolute;
+        top: -40px;
+        left: 360px;
+    }
+
+    &__white-inner::after {
+        content: '';
+        background-image: url(../img/dec-4.png);
+        width: 324px;
+        height: 311px;
+        position: absolute;
+        top: 115px;
+        left: 620px;
+    }
+
+
+    &__white-text {
+        margin-bottom: 30px;
+        font-family: 'Roboto Condensed';
+        font-size: px-to-em(14);
+        line-height: 120%;
+        color: #040404;
+    }
+
+    &__white-text:first-child {
+        max-width: 285px;
+    }
+
+    &__white-text:nth-child(2) {
+        max-width: 435px;
+
+    }
+
+    &__white-text:nth-child(3) {
+        max-width: 590px;
+    }
+
+    &__white-video {
+        margin-top: 100px;
+        background-image: url(../img/video.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 273px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__prev {
+        display: block;
+        color:  #FFFFFF;
+        text-decoration: none;
+    }
+
+    
+   
+  
+}

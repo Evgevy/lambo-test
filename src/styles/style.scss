@@ -1,0 +1,40 @@
+@import 'mixins';
+
+
+
+/* Plugins */
+
+
+
+/* Blocks */
+
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url(../fonts/impact.woff2)
+}
+
+
+
+
+
+@import './src/blocks/header/header';
+@import './src/blocks/promo/promo';
+@import './src/blocks/info/info';
+@import './src/blocks/track/track';
+@import './src/blocks/evo/evo';

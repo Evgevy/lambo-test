@@ -1,0 +1,22 @@
+mixin header(modifier)
+  header.header&attributes(attributes)
+    .header__container
+      .header__nav 
+        ul.header__menu-list.header__menu-list--left
+          li.header__item
+            a.header__link(href="#") О гонке
+          li.header__item
+            a.header__link(href="#") Трек
+          li.header__item
+            a.header__link(href="#") Lamborghini Super trofeo
+          li.header__item
+            a.header__link(href="#") Новости
+        a.header__logo(href="#")
+          include img/logo.svg
+        ul.header__menu-list.header__menu-list--right 
+          li.header__item
+            a.header__link(href="#") Купить билеты
+          li.header__item
+            a.header__link(href="#") Смотреть онлайн
+          li.header__item
+            a.header__link(href="#") Контакты
