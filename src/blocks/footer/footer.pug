@@ -1,0 +1,32 @@
+mixin footer(modifier)
+  footer.footer&attributes(attributes)
+    .footer__content
+      h2.footer__titleone Контакты
+      .footer__top 
+        .footer__info
+          .footer__infobox 
+            h3.footer__title ОБЩИЕ
+            a(href="tel:+351282405600").footer__phone +(351) 282 405 600
+            a(href="tel:+351282405697").footer__phone +(351) 282 405 697
+            a(href="mailto:info@autodromodoalgarve.com").footer__email info@autodromodoalgarve.com
+          .footer__infobox 
+            h3.footer__title БИЛЕТЫ
+            a(href="tel:+351282405600").footer__phone +(351) 282 405 600
+            a(href="mailto:tickets@autodromodoalgarve.com").footer__email tickets@autodromodoalgarve.com
+          .footer__social-list
+            a(href="#").footer__link
+              include img/youtube.svg 
+            a(href="#").footer__link
+              include img/inst.svg 
+            a(href="#").footer__link
+              include img/facebook.svg 
+        .footer__adress
+          h3.footer__title АДРЕС
+          .footer__text Sitio do Escampadinho, Mexilhoeira Grande, 8500-148 Portimao, Portugal
+          .footer__map
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A40958df510ee03ea72c3f0977bc66fd5175925cb5a9e30c3eb4c944d0bf8cb92&amp;width=454&amp;height=250&amp;lang=ru_RU&amp;scroll=true"></script>
+      .footer__bottom
+        a(href="#").footer__down-link Design by Varvara Prokopchuk
+        a(href="#").footer__logo
+          include img/log.svg
+        a(href="#").footer__down-link Политика конфиденциальности 

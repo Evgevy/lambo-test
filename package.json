@@ -28,6 +28,7 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "pump": "^3.0.0",
     "slick-carousel": "^1.8.1",
+    "swiper": "^8.4.6",
     "yarn": "^1.22.4"
   }
 }

@@ -58,5 +58,15 @@
         margin-top: auto;
         margin-bottom: 30px;
         align-self: center;
+        transition: .5s;
+    }
+
+    &__arrow:hover {
+        transform: scale(1.5);
+        svg {
+            path {
+                stroke: #9F6B08;
+            }
+        }
     }
 }
