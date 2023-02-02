@@ -1,7 +1,9 @@
 mixin header(modifier)
   header.header&attributes(attributes)
     .header__container
-      .header__nav 
+      .header__log(href="#")
+        include img/logo.svg
+      .header__nav
         ul.header__menu-list.header__menu-list--left
           li.header__item
             a.header__link(href="#") О гонке
@@ -20,3 +22,7 @@ mixin header(modifier)
             a.header__link(href="#") Смотреть онлайн
           li.header__item
             a.header__link(href="#") Контакты
+      .header__burger
+        .header__line 
+        .header__line
+        .header__line

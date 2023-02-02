@@ -40,5 +40,22 @@
         line-height: 120%;
         color: #040404;
     }
+
+    &__img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    @media screen and (max-width: 895px) {
+        text-align: center;
+
+        &__content {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        text-align: left;
+    }
   
 }

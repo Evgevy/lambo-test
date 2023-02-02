@@ -5,10 +5,9 @@
     background-position: center;
     
     &__content {
-        max-width: 1220px;
+        max-width: 1000px;
         margin: 0 auto;
         padding: 0 10px;
-    
     }
 
     &__inner {
@@ -46,14 +45,6 @@
         padding: 10px 0;
     }
 
-    &__text {
-        font-family: 'Roboto Condensed';
-        font-size: px-to-em(16);
-        line-height: 120%;
-        color: #363636;
-        margin-bottom: 10px;
-    }
-
     &__arrow {
         margin-top: auto;
         margin-bottom: 30px;
@@ -67,6 +58,29 @@
             path {
                 stroke: #9F6B08;
             }
+        }
+    }
+
+    @media screen and (max-width: 1090px) {
+        background-position: left center;
+        
+
+        &__inner {
+            padding-top: 120px;
+        }
+
+        &__title {
+            font-size: px-to-em(50);
+        }
+
+        &__subtitle {
+            font-size: px-to-em(30);
+        }
+
+        &__data {
+            font-size: px-to-em(14);
+            font-weight: 500;
+            color: goldenrod;
         }
     }
 }
