@@ -44,7 +44,8 @@
     }
 
     &__link {
-        margin-right: 20px;
+        text-decoration: none;
+        display: block;
     }
 
     &__link:hover {
@@ -57,6 +58,8 @@
 
     &__social-list {
         margin-bottom: 108px;
+        display: flex;
+        gap: 0 20px;
     }
 
     &__top {
