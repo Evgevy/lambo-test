@@ -8,6 +8,10 @@
 
 /* Blocks */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body, ul, ol {
   margin: 0;
   padding: 0;
